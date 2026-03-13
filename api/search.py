@@ -2,6 +2,7 @@
 import aiohttp
 from fastapi import FastAPI, Query
 
+# ✅ This must exist and be named exactly 'app'
 app = FastAPI(title="Flip-Saavn Clone API")
 
 @app.get("/")
